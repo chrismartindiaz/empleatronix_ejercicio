@@ -6,7 +6,7 @@ st.title('EMPLEATRONIX')
 
 st.write('Todos los datos sobre los empleados en una aplicación.')
 
-data = pd.read_csv('./employees.csv')
+data = pd.read_csv('data/employees.csv')
 
 st.write(data)
 
