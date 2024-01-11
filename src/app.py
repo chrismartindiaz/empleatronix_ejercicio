@@ -20,7 +20,7 @@ with col2:
     names = st.toggle('Mostrar el nombre', value=True)
 
 with col3:
-    salaries = st.toggle('Mostrar el sueldo en la barra')
+    salaries = st.toggle('Mostrar sueldo en la barra')
 
 # Creamos la figura y sus respectivos ejes
 fig, ax = plt.subplots(figsize=(8, 6))
